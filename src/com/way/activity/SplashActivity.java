@@ -21,9 +21,9 @@ public class SplashActivity extends FragmentActivity {
 		String password = PreferenceUtils.getPrefString(this,
 				PreferenceConstants.PASSWORD, "");
 		if (!TextUtils.isEmpty(password)) {
-			mHandler.postDelayed(gotoMainAct, 3000);
+			mHandler.postDelayed(gotoMainAct, 2000);
 		} else {
-			mHandler.postDelayed(gotoLoginAct, 3000);
+			mHandler.postDelayed(gotoLoginAct, 2000);
 		}
 	}
 
